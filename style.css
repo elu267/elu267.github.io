@@ -32,34 +32,34 @@ Anti-Flash White #f0f3f5
 	}
 .elu-boxbg {
 	background-color: white; /* white and inserted after box-info class*/
-	padding: 5px;
+	padding: 2px;
 	margin: 15px;
 	}
 
- .wrap {
+.wrap {
     float: left;  
     }
 
 .elu-clearfix {
     overflow: auto;
      }
-     
-      
+
+
 /* Here we define some styles that will ONLY be applied at screen sizes below 480 pixels */
 @media (max-width: 480px) {
  
     .elu-left {
       background: white;
-      width: 100%;
+      width: auto%;
       height: auto;
       max-width: auto;
     
     } 
     .elu-right {
       background: white;
-      width: 100%
+      width: auto%
       height: auto;
-      max-width: 100%
+      max-width: auto%
       }
    
     .elu-clearfix {
